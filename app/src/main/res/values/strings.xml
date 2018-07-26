@@ -1,0 +1,140 @@
+<resources>
+    <string name="app_name">IELTS Mock Test</string>
+    <string name="listening_button">Listening</string>
+    <string name="reading_button">Reading</string>
+    <string name="writing_button">Writing</string>
+    <string name="speaking_button">Speaking</string>
+    <string name="exam_button">Exam</string>
+
+    <string-array name="matching_sentence_ending">
+        <item></item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+    </string-array>
+
+    <string-array name="matching_statements">
+        <item></item>
+        <item>YES</item>
+        <item>NO</item>
+        <item>NOT GIVEN</item>
+    </string-array>
+
+    <string-array name="matching_feature_list">
+        <item></item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+    </string-array>
+
+    <string-array name="matching_information_list">
+        <item></item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+    </string-array>
+
+    <string name="q_1">1. Andrea is feeling happy because</string>
+    <string name="q_1_a_1">she\'s seen Harry.</string>
+    <string name="q_1_a_2">she\'s finished her exams.</string>
+    <string name="q_1_a_3">she can sleep well.</string>
+
+    <string name="q_2">2. What is Harry\'s problem?</string>
+    <string name="q_2_a_1">He doesn\'t want to sell his things.</string>
+    <string name="q_2_a_2">He needs to decide what to do with his possession.</string>
+    <string name="q_2_a_3">He wants to take everything to England.</string>
+
+    <string name="q_3">3. Where is Harry going to advertise his books for sale?</string>
+    <string name="q_3_a_1">In the university bookshop.</string>
+    <string name="q_3_a_2">In the student newspaper.</string>
+    <string name="q_3_a_3">In the economics department.</string>
+
+    <string name="q_4">1. In a Japanese pagoda, the shinbashira</string>
+    <string name="q_4_a_1">bears the full weight of the building.</string>
+    <string name="q_4_a_2">bends under pressure like a tree.</string>
+    <string name="q_4_a_3">connects the floors with the foundations.</string>
+
+    <string name="q_5">2. Shuzo Ishida performs experiments in order to</string>
+    <string name="q_5_a_1">improve skyscraper design.</string>
+    <string name="q_5_a_2">be able to build new pagodas.</string>
+    <string name="q_5_a_3">learn about the dynamics of pagodas.</string>
+
+    <string name="testing">This page will provide Android ScrollView with fixed header and footer layout example.
+        When the number of lines of body content will be more, there will be scroll line.
+        In our example there will be a header which will always be fixed at the top of mobile screen and a footer that will always be fixed at the bottom of the screen.
+        The body content have scroll view with full body view.
+        Find the complete example.
+        This page will provide Android ScrollView with fixed header and footer layout example.
+        When the number of lines of body content will be more, there will be scroll line.
+        In our example there will be a header which will always be fixed at the top of mobile screen and a footer that will always be fixed at the bottom of the screen.
+        The body content have scroll view with full body view.
+        Find the complete example.
+    This page will provide Android ScrollView with fixed header and footer layout example.
+        When the number of lines of body content will be more, there will be scroll line.
+        In our example there will be a header which will always be fixed at the top of mobile screen and a footer that will always be fixed at the bottom of the screen.
+        The body content have scroll view with full body view.
+        Find the complete example.
+    This page will provide Android ScrollView with fixed header and footer layout example.
+        When the number of lines of body content will be more, there will be scroll line.
+        In our example there will be a header which will always be fixed at the top of mobile screen and a footer that will always be fixed at the bottom of the screen.
+        The body content have scroll view with full body view.
+        Find the complete example.
+    This page will provide Android ScrollView with fixed header and footer layout example.
+        When the number of lines of body content will be more, there will be scroll line.
+        In our example there will be a header which will always be fixed at the top of mobile screen and a footer that will always be fixed at the bottom of the screen.
+        The body content have scroll view with full body view.
+        Find the complete example.</string>
+
+    <string name="reading">
+        Passage: \n
+        In a land swept by typhoons and shaken by earthquakes,
+        how have Japans tallest and seemingly flimsiest old buildings - 500 or so wooden pagodas - remained standing for centuries?
+        Records show that only two have collapsed during the past 1400 years.
+        Those that have disappeared were destroyed by fire as a result of lightning or civil war.
+        The disastrous Hanshin earthquake in 1995 killed 6,400 people, toppled elevated highways, flattened office blocks and devastated the port area of Kobe.
+        Yet it left the magnificent five-storey pagoda at the Toji temple in nearby Kyoto unscathed, though it levelled a number of buildings in the neighbourhood.
+    </string>
+
+    <string name="passage_1">
+        You should spend about 20 minutes on <b>questions 1-13,</b> which are based on
+        Reading Passage 1 on the following pages.\n
+        A song on the brain \n
+        A \n
+        Everyone knows the situation where you can\'t get a Song out of your head. You hear a pop song on the radio - or
+        even just read the song\'s title - and it haunts you for hours, playing over and over in your mind until you\'re heartily
+        sick of it. The condition now even has a medical name - \'Song-in-head syndrome\'. \n\n
+        B \n
+        But why does the mind annoy us like this? No one knows for Sure, but it\'s probably because the brain is better at
+        holding onto information than it is at knowing what information is important. Roger Chaffin, a psychologist at the
+        University of Connecticut says. "It's a manifestation of an aspect of memory which is normally an asset to us, but in
+        this instance it can be a nuisance." \n\n
+        C \n
+        This eager acquisitiveness of the brain may have helped our ancestors remember important information in the past.
+        Today, students use it to learn new material, and musicians rely on it to memorise complicated pieces. But when this
+        useful function goes awry it can get you stuck on a tune. Unfortunately, superficial pop tunes are, by their very nature,
+        more likely to stick than something more inventive. \n\n
+        D \n
+        The annoying playback probably originates in the auditory cortex. Located at the front of the brain, this region handles
+        both listening and playback of music and other sounds. Neuroscientist Robert Zatorre of McGill University in Montreal
+        proved this some years ago when he asked volunteers to replay the theme from the TV show Dallas in their heads.
+        Brain imaging studies showed that this activated the same region of the auditory cortex as when the people actually
+        heard the Song. \n\n
+        E \n
+        Not every stored musical memory emerges into consciousness, however. The frontal lobe of the brain gets to decide
+        which thoughts become conscious and which ones are simply stored away. But it can become fatigued or depressed,
+    </string>
+</resources>

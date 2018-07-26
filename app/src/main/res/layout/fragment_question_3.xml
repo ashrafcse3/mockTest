@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:divider="@drawable/tall_divider"
+            android:showDividers="middle|beginning|end">
+            <TextView
+                android:id="@+id/_28ReadingQuestionHeaderId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Questions 1-3"
+                android:textColor="#000"
+                android:textSize="22sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_style_2"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+
+                <TextView
+                    android:id="@+id/_28ReadingAnswerId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="List of A Roger Chaffin B"
+                    android:textColor="#000"
+                    android:textSize="22sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/_28ReadingQuestionId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4. "
+                    android:textColor="#000"
+                    android:textSize="22sp"/>
+
+                <Spinner
+                    android:id="@+id/_28ReadingSpinnerId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/spinner_style"/>
+
+                <TextView
+                    android:id="@+id/_28ReadingFullQuestion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/q_2"
+                    android:textColor="#000"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/_29ReadingQuestionId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4. "
+                    android:textColor="#000"
+                    android:textSize="22sp" />
+
+                <Spinner
+                    android:id="@+id/_29ReadingSpinnerId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/spinner_style"/>
+
+                <TextView
+                    android:id="@+id/_29ReadingFullQuestion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/q_2"
+                    android:textColor="#000"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/_30ReadingQuestionId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4. "
+                    android:textColor="#000"
+                    android:textSize="22sp" />
+
+                <Spinner
+                    android:id="@+id/_30ReadingSpinnerId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/spinner_style" />
+
+                <TextView
+                    android:id="@+id/_30ReadingFullQuestion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/q_2"
+                    android:textColor="#000"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/_31ReadingQuestionId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4. "
+                    android:textColor="#000"
+                    android:textSize="22sp" />
+
+                <Spinner
+                    android:id="@+id/_31ReadingSpinnerId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/spinner_style"/>
+
+                <TextView
+                    android:id="@+id/_31ReadingFullQuestion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/q_2"
+                    android:textColor="#000"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/_32ReadingQuestionId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4. "
+                    android:textColor="#000"
+                    android:textSize="22sp" />
+
+                <Spinner
+                    android:id="@+id/_32ReadingSpinnerId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/spinner_style" />
+
+                <TextView
+                    android:id="@+id/_32ReadingFullQuestion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/q_2"
+                    android:textColor="#000"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/_33ReadingQuestionId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4. "
+                    android:textColor="#000"
+                    android:textSize="22sp" />
+
+                <Spinner
+                    android:id="@+id/_33ReadingSpinnerId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/spinner_style"/>
+
+                <TextView
+                    android:id="@+id/_33ReadingFullQuestion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/q_2"
+                    android:textColor="#000"
+                    android:textSize="20sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/_34ReadingQuestionHeaderId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Questions 1-3"
+            android:textColor="#000"
+            android:textSize="22sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/border_style_2">
+            <TextView
+                android:id="@+id/_34QuestionFirstId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="11. Located conveniently at the"
+                android:textSize="20sp"
+                android:textColor="#000" />
+            <EditText
+                android:id="@+id/_34editTextId"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/_34QuestionLastId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="of Marion Street and Giles Street."
+                android:textColor="#000"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:drawableTop="@drawable/spinner_arrow"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The TV camera was carried to the Moon on Surveyor 3."
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:background="@drawable/border_style_2"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:drawableTop="@drawable/spinner_arrow"
+            android:layout_gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/border_style_2">
+            <TextView
+                android:id="@+id/_35QuestionFirstId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="11. Located conveniently at the"
+                android:textSize="20sp"
+                android:textColor="#000"/>
+            <EditText
+                android:id="@+id/_35editTextId"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/_35QuestionLastId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="of Marion Street and Giles Street."
+                android:textColor="#000"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:drawableTop="@drawable/spinner_arrow"
+            android:layout_gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/border_style_2">
+            <TextView
+                android:id="@+id/_36QuestionFirstId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="11. Located conveniently at the"
+                android:textSize="20sp"
+                android:textColor="#000"/>
+            <EditText
+                android:id="@+id/_36editTextId"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/_36QuestionLastId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="of Marion Street and Giles Street."
+                android:textColor="#000"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:drawableTop="@drawable/spinner_arrow"
+            android:layout_gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/border_style_2">
+            <TextView
+                android:id="@+id/_37QuestionFirstId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="11. Located conveniently at the"
+                android:textSize="20sp"
+                android:textColor="#000"/>
+            <EditText
+                android:id="@+id/_37editTextId"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/_37QuestionLastId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="of Marion Street and Giles Street."
+                android:textColor="#000"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:drawableTop="@drawable/spinner_arrow"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The Streptococcus mitis bacteria were found."
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:background="@drawable/border_style_2"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:drawableTop="@drawable/spinner_arrow"
+            android:layout_gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/border_style_2">
+            <TextView
+                android:id="@+id/_38QuestionFirstId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="11. Located conveniently at the"
+                android:textSize="20sp"
+                android:textColor="#000"/>
+            <EditText
+                android:id="@+id/_38editTextId"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/_38QuestionLastId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="of Marion Street and Giles Street."
+                android:textColor="#000"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:drawableTop="@drawable/spinner_arrow"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Scientist concluded that the bacteria can survive lunar condition."
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:background="@drawable/border_style_2"/>
+        <Button
+            android:id="@+id/resultbtn3"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Result"/>
+
+    </LinearLayout>
+
+</ScrollView>

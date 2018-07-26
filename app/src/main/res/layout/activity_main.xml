@@ -1,0 +1,115 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#e9e9e9"
+    tools:context="com.databaseielts.mocktest.ielts.database.ieltsdatabase.MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/expandableToolbarId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="IELTS Mock Test"
+        app:titleTextColor="#fff"
+        android:background="@color/colorPrimary"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:paddingTop="50dp">
+
+        <Button
+            android:id="@+id/listeningButtonId"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:text="@string/listening_button"
+            android:textColor="#4B4B4B"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:drawableBottom="@drawable/listening"
+            android:padding="15dp"
+            android:background="@drawable/myrect"/>
+        <Button
+            android:id="@+id/readingButtonId"
+            android:layout_marginBottom="10dp"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:text="@string/reading_button"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:drawableBottom="@drawable/reading"
+            android:padding="15dp"
+            android:background="@drawable/myrect"
+            android:textColor="#4B4B4B"/>
+        <Button
+            android:id="@+id/feedbackid"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:text="Feedback>>"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:padding="15dp"
+            android:background="@drawable/myrect"
+            android:textColor="#4B4B4B"/>
+
+    </LinearLayout>
+    <!--
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:text="@string/writing_button"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:drawableBottom="@drawable/writing"
+            android:padding="15dp"
+            android:background="@drawable/myrect"
+            android:textColor="#4B4B4B"/>
+        <Button
+            android:layout_marginTop="5dp"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:text="@string/speaking_button"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:drawableBottom="@drawable/speaking"
+            android:padding="15dp"
+            android:background="@drawable/myrect"
+            android:textColor="#4B4B4B"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:text="@string/exam_button"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:drawableBottom="@drawable/exam"
+        android:padding="15dp"
+        android:background="@drawable/myrect"
+        android:textColor="#4B4B4B"/>
+        -->
+
+</LinearLayout>

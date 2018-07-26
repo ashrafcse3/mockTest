@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.databaseielts.mocktest.ielts.database.ieltsdatabase.T_1_S_3">
+    <RelativeLayout
+        android:id="@+id/control_panel_2"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:elevation="10dp"
+        android:background="#c3c4c4"
+        android:layout_alignParentBottom="true"
+        android:padding="8dp">
+
+        <ImageView
+            android:layout_height="wrap_content"
+            android:id="@+id/playImageId"
+            android:layout_width="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:background="@drawable/play" />
+
+        <ImageView
+            android:id="@+id/backwardImageId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/playImageId"
+            android:layout_toLeftOf="@id/playImageId"
+            android:paddingRight="70dp"
+            android:src="@drawable/backward" />
+
+        <ImageView
+            android:id="@+id/forwardIdImageId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/playImageId"
+            android:layout_toRightOf="@id/playImageId"
+            android:paddingLeft="70dp"
+            android:src="@drawable/forward" />
+
+        <SeekBar
+            android:id="@+id/seekBarId"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="38dp"/>
+
+        <TextView
+            android:id="@+id/runningTimeId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/seekBarId"
+            android:layout_toLeftOf="@id/seekBarId"
+            android:text="00:00"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/fullTimeId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/seekBarId"
+            android:layout_toRightOf="@id/seekBarId"
+            android:text="00:00"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/control_panel_2">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="5dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:divider="@drawable/tall_divider"
+                android:showDividers="middle|beginning|end">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/_21QuestionFirstId"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="11. Located conveniently at the"
+                        android:textSize="20sp"
+                        android:textColor="#000"/>
+                    <EditText
+                        android:id="@+id/_21editTextId"
+                        android:layout_width="270dp"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:id="@+id/_21QuestionLastId"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:text="of Marion Street and Giles Street."
+                        android:textColor="#000"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/_22QuestionFirstId"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="12. Monday - Friday:"
+                        android:textSize="20sp"
+                        android:textColor="#000"/>
+                    <EditText
+                        android:id="@+id/_22editTextId"
+                        android:layout_width="270dp"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:id="@+id/_22QuestionLastId"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:text="lol"
+                        android:textColor="#000"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/_23QuestionFirstId"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="13. Sunday:   9.00 am to "
+                        android:textSize="20sp"
+                        android:textColor="#000"/>
+                    <EditText
+                        android:id="@+id/_23editTextId"
+                        android:layout_width="270dp"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:id="@+id/_23QuestionLastId"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:text="am."
+                        android:textColor="#000"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/_24QuestionFirstId"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="12. Monday - Friday:"
+                        android:textSize="20sp"
+                        android:textColor="#000"/>
+                    <EditText
+                        android:id="@+id/_24editTextId"
+                        android:layout_width="270dp"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:id="@+id/_24QuestionLastId"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:text="lol"
+                        android:textColor="#000"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/_25QuestionFirstId"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="12. Monday - Friday:"
+                        android:textSize="20sp"
+                        android:textColor="#000"/>
+                    <EditText
+                        android:id="@+id/_25editTextId"
+                        android:layout_width="270dp"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:id="@+id/_25QuestionLastId"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:text="lol"
+                        android:textColor="#000"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:divider="@drawable/tall_divider"
+                android:showDividers="middle|beginning|end"
+                android:padding="3dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="4">
+                    <TextView
+                        android:layout_width="99dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:text="TREND"
+                        android:layout_weight=".3"
+                        android:textAlignment="center"
+                        android:textColor="#000"
+                        android:background="@drawable/border_style_2"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="COMMENTS"
+                        android:textSize="20sp"
+                        android:layout_weight="3.7"
+                        android:textAlignment="center"
+                        android:textColor="#000"
+                        android:background="@drawable/border_style_2"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="4"
+                    android:background="@drawable/border_style_2">
+
+                    <TextView
+                        android:layout_width="99dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".5"
+                        android:paddingRight="5dp"
+                        android:text="Interest in healthy food"
+                        android:textAlignment="center"
+                        android:textSize="20sp"
+                        android:textColor="#000"
+                        android:layout_gravity="center"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3.5"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/border_style_2">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <TextView
+                                android:id="@+id/_26QuestionFirstId"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="26. Saldas are the third most commonly eaten food in Canadian"
+                                android:textSize="20sp"
+                                android:textColor="#000"/>
+                            <EditText
+                                android:id="@+id/_26QuestionEditId"
+                                android:layout_width="200dp"
+                                android:layout_height="wrap_content" />
+                            <TextView
+                                android:id="@+id/_26QuestionLastId"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="20sp"
+                                android:text="Finish line"
+                                android:textColor="#000"/>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <TextView
+                                android:id="@+id/_27QuestionFirstId"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="27. Saldas are the third most commonly eaten food in Canadian"
+                                android:textSize="20sp"
+                                android:textColor="#000"/>
+                            <EditText
+                                android:id="@+id/_27QuestionEditId"
+                                android:layout_width="200dp"
+                                android:layout_height="wrap_content" />
+                            <TextView
+                                android:id="@+id/_27QuestionLastId"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="20sp"
+                                android:text="Finish line"
+                                android:textColor="#000"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="4"
+                    android:background="@drawable/border_style_2">
+
+                    <TextView
+                        android:layout_width="99dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".5"
+                        android:paddingRight="5dp"
+                        android:text="New way of labelling"
+                        android:textAlignment="center"
+                        android:textSize="20sp"
+                        android:textColor="#000"
+                        android:layout_gravity="center"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3.5"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/border_style_2">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <TextView
+                                android:id="@+id/_28QuestionFirstId"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="28. Labelled according to"
+                                android:textSize="20sp"
+                                android:textColor="#000"/>
+                            <EditText
+                                android:id="@+id/_28QuestionEditId"
+                                android:layout_width="200dp"
+                                android:layout_height="wrap_content" />
+                            <TextView
+                                android:id="@+id/_28QuestionLastId"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="20sp"
+                                android:text="technique e.g. simmering steak."
+                                android:textColor="#000"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="4"
+                    android:background="@drawable/border_style_2">
+
+                    <TextView
+                        android:layout_width="99dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".5"
+                        android:paddingRight="5dp"
+                        android:text="Mobile meals"
+                        android:textAlignment="center"
+                        android:textSize="20sp"
+                        android:textColor="#000"
+                        android:layout_gravity="center"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3.5"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/border_style_2">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="20sp"
+                            android:text="More meals eaten away from home."
+                            android:textColor="#000"/>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <TextView
+                                android:id="@+id/_29QuestionFirstId"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="26. Saldas are the third most commonly eaten food in Canadian"
+                                android:textSize="20sp"
+                                android:textColor="#000"/>
+                            <EditText
+                                android:id="@+id/_29QuestionEditId"
+                                android:layout_width="200dp"
+                                android:layout_height="wrap_content" />
+                            <TextView
+                                android:id="@+id/_29QuestionLastId"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="20sp"
+                                android:text="Finish line"
+                                android:textColor="#000"/>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <TextView
+                                android:id="@+id/_30QuestionFirstId"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="27. Saldas are the third most commonly eaten food in Canadian"
+                                android:textSize="20sp"
+                                android:textColor="#000"/>
+                            <EditText
+                                android:id="@+id/_30QuestionEditId"
+                                android:layout_width="200dp"
+                                android:layout_height="wrap_content" />
+                            <TextView
+                                android:id="@+id/_30QuestionLastId"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="20sp"
+                                android:text="Finish line"
+                                android:textColor="#000"/>
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn3"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RESULT"
+                android:textSize="20sp"
+                android:textColor="#256593"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

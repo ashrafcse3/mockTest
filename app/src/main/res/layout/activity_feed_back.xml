@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.databaseielts.mocktest.ielts.database.ieltsdatabase.feedBack">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/expandableToolbarId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="Feedback"
+            app:titleTextColor="#fff"
+            android:background="@color/colorPrimary"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:paddingTop="20dp"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="How could we improve this service\n"
+                android:textStyle="normal"
+                />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:background="@drawable/border_style_2"
+                    android:layout_margin="30dp"
+                    android:layout_marginTop="30dp"
+                    android:padding="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:hint="Please enter your opinion"
+                    android:id="@+id/editText1"
+                    android:textStyle="bold"/>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:background="@drawable/border_style_2"
+                    android:id="@+id/editText2"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_margin="30dp"
+                    android:layout_marginTop="30dp"
+                    android:hint="Enter your email"
+                    android:padding="5dp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/send"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/editText"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="13dp"
+                android:background="#0E988A"
+                android:elevation="0dp"
+                android:text="send feedback"
+                android:textColor="#e8f1ed"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

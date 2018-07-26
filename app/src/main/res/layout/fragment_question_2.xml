@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@drawable/tall_divider"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:showDividers="middle|beginning|end">
+
+        <TextView
+            android:id="@+id/_14ReadingQuestionHeaderId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Questions 1-3"
+            android:textColor="#000"
+            android:textSize="22sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_style_2">
+
+            <TextView
+                android:id="@+id/_14ReadingAnswerId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="List of A Roger Chaffin B"
+                android:textColor="#000"
+                android:textSize="22sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/_14ReadingQuestionId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4. "
+                android:textColor="#000"
+                android:textSize="22sp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <Spinner
+                    android:id="@+id/_14ReadingSpinnerId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/spinner_style"/>
+
+                <TextView
+                    android:id="@+id/_14ReadingFullQuestion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/q_2"
+                    android:textColor="#000"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/_15ReadingQuestionId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4. "
+                android:textColor="#000"
+                android:textSize="22sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <Spinner
+                    android:id="@+id/_15ReadingSpinnerId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/spinner_style"/>
+
+                <TextView
+                    android:id="@+id/_15ReadingFullQuestion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/q_2"
+                    android:textColor="#000"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/_16ReadingQuestionId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4. "
+                android:textColor="#000"
+                android:textSize="22sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <Spinner
+                    android:id="@+id/_16ReadingSpinnerId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/spinner_style" />
+
+                <TextView
+                    android:id="@+id/_16ReadingFullQuestion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/q_2"
+                    android:textColor="#000"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/_17ReadingQuestionId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4. "
+                android:textColor="#000"
+                android:textSize="22sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <Spinner
+                    android:id="@+id/_17ReadingSpinnerId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/spinner_style"/>
+
+                <TextView
+                    android:id="@+id/_17ReadingFullQuestion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/q_2"
+                    android:textColor="#000"
+                    android:textSize="20sp" />
+        </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/_18ReadingQuestionId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4. "
+                android:textColor="#000"
+                android:textSize="22sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <Spinner
+                    android:id="@+id/_18ReadingSpinnerId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/spinner_style" />
+
+                <TextView
+                    android:id="@+id/_18ReadingFullQuestion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/q_2"
+                    android:textColor="#000"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/_19ReadingQuestionId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4. "
+                android:textColor="#000"
+                android:textSize="22sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <Spinner
+                    android:id="@+id/_19ReadingSpinnerId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/spinner_style"/>
+
+                <TextView
+                    android:id="@+id/_19ReadingFullQuestion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/q_2"
+                    android:textColor="#000"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/_20ReadingQuestionHeaderId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Questions 1-3"
+            android:textColor="#000"
+            android:textSize="22sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/_20QuestionFirstId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="11. Located conveniently at the"
+                android:textSize="20sp"
+                android:textColor="#000"/>
+            <EditText
+                android:id="@+id/_20editTextId"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/_20QuestionLastId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="of Marion Street and Giles Street."
+                android:textColor="#000"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/_21QuestionFirstId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="11. Located conveniently at the"
+                android:textSize="20sp"
+                android:textColor="#000"/>
+            <EditText
+                android:id="@+id/_21editTextId"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/_21QuestionLastId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="of Marion Street and Giles Street."
+                android:textColor="#000"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/_22QuestionFirstId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="11. Located conveniently at the"
+                android:textSize="20sp"
+                android:textColor="#000"/>
+            <EditText
+                android:id="@+id/_22editTextId"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/_22QuestionLastId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="of Marion Street and Giles Street."
+                android:textColor="#000"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/_23QuestionFirstId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="11. Located conveniently at the"
+                android:textSize="20sp"
+                android:textColor="#000"/>
+            <EditText
+                android:id="@+id/_23editTextId"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/_23QuestionLastId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="of Marion Street and Giles Street."
+                android:textColor="#000"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/_24QuestionFirstId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="11. Located conveniently at the"
+                android:textSize="20sp"
+                android:textColor="#000"/>
+            <EditText
+                android:id="@+id/_24editTextId"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/_24QuestionLastId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="of Marion Street and Giles Street."
+                android:textColor="#000"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/_25QuestionFirstId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="11. Located conveniently at the"
+                android:textSize="20sp"
+                android:textColor="#000"/>
+            <EditText
+                android:id="@+id/_25editTextId"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/_25QuestionLastId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="of Marion Street and Giles Street."
+                android:textColor="#000"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/_26ReadingQuestionHeaderId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Questions 1-3"
+            android:textColor="#000"
+            android:textSize="22sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/_26ReadingQuestionId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/q_2"
+                android:textColor="#000"
+                android:textSize="22sp" />
+
+            <RadioGroup
+                android:id="@+id/_26ReadingGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/_26ReadingAns1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@drawable/custom_radio_button_selector"
+                    android:text="@string/q_2_a_1"
+                    android:textColor="#000"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/_26ReadingAns2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@drawable/custom_radio_button_selector"
+                    android:text="@string/q_2_a_2"
+                    android:textColor="#000"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/_26ReadingAns3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@drawable/custom_radio_button_selector"
+                    android:text="@string/q_2_a_3"
+                    android:textColor="#000"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/_26ReadingAns4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@drawable/custom_radio_button_selector"
+                    android:text="@string/q_2_a_3"
+                    android:textColor="#000"
+                    android:textSize="20sp" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/_27ReadingQuestionId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/q_2"
+                android:textColor="#000"
+                android:textSize="22sp" />
+
+            <RadioGroup
+                android:id="@+id/_27ReadingGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/_27ReadingAns1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@drawable/custom_radio_button_selector"
+                    android:text="@string/q_2_a_1"
+                    android:textColor="#000"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/_27ReadingAns2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@drawable/custom_radio_button_selector"
+                    android:text="@string/q_2_a_2"
+                    android:textColor="#000"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/_27ReadingAns3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@drawable/custom_radio_button_selector"
+                    android:text="@string/q_2_a_3"
+                    android:textColor="#000"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/_27ReadingAns4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@drawable/custom_radio_button_selector"
+                    android:text="@string/q_2_a_3"
+                    android:textColor="#000"
+                    android:textSize="20sp" />
+            </RadioGroup>
+        </LinearLayout>
+        <Button
+            android:id="@+id/resultbtn2"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Result"/>
+    </LinearLayout>
+
+</ScrollView>
